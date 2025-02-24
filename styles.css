@@ -25,14 +25,15 @@ text-align: center;
 color: aliceblue;
 }
 
-input{
+#Dni{
 font-size: 18px;
 border-radius: 20px;    
 width: 30%;
 height: 20px;
 text-align: center;
 border: 2px solid black;
-color: aqua;
+
+color:black;
 }
 
 button
@@ -43,13 +44,16 @@ border-radius: 9px;
 font-size: 18px;
 background-color: rgb(0, 255, 179);
 border: 3px solid black;
+padding: 6px;
 }
 
 select
 {
+text-align: center;
 border: 2px solid black;
 border-radius: 10px;
 width: 50%;    
+height: 30px;
 font-size: 17px;
 background-color: rgb(64, 109, 177);
 color: antiquewhite;
@@ -100,7 +104,8 @@ flex-direction: row;
 border-bottom: none;
 background-color: rgb(106, 178, 240);
 font-size: 19px;
-
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
 }
 
 
