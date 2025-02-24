@@ -19,8 +19,10 @@ function f_buscar() {
 while (sumador < tabla.length) {
 
 if (tabla[sumador][0] == ciudad) {
-document.getElementById("textarea").value += tabla[sumador][0] +"                  "+ tabla[sumador][1]
-+"                      "+ tabla[sumador][2]+"                             "+tabla[sumador][3]+"\n";
+    document.getElementById("pciudad").innerHTML += tabla[sumador][0]+"<br>";
+    document.getElementById("pdni").innerHTML+=tabla[sumador][1]+"<br>";
+    document.getElementById("pnombre").innerHTML +=tabla[sumador][2]+"<br>";
+    document.getElementById("pedad").innerHTML +=tabla[sumador][3]+"<br>";
 }
 
 sumador++;
@@ -38,12 +40,15 @@ function f_buscarDNI() {
     }
     
     if (tabla[sumador1][1] == dni) {
-        document.getElementById("textarea").value += tabla[sumador1][0] +"                  "+ tabla[sumador1][1]
-        +"                      "+ tabla[sumador1][2]+"                             "+tabla[sumador1][3]+"\n";
-        }
+        document.getElementById("pciudad").innerHTML += tabla[sumador1][0]+"<br>";
+        document.getElementById("pdni").innerHTML+=tabla[sumador1][1]+"<br>";
+        document.getElementById("pnombre").innerHTML +=tabla[sumador1][2]+"<br>";
+        document.getElementById("pedad").innerHTML +=tabla[sumador1][3]+"<br>";
     }
-    
+}
 function f_limpiar(){
-document.getElementById("textarea").value="";
-
+document.getElementById("pciudad").innerHTML ="";
+document.getElementById("pdni").innerHTML="";
+document.getElementById("pnombre").innerHTML="";
+document.getElementById("pedad").innerHTML="";
 }

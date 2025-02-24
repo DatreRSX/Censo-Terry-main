@@ -11,8 +11,9 @@
 <div id="main">
     
 <h1>Censo Terry</h1>
-
-<label for="Ciudad">Ciudad</label>
+<div id="buscadores">
+<div id="eciudad">
+<label for="Ciudad">Ciudad:</label>
 <select id="ciudades">
 <option value="Madrid">Madrid</option>
 <option value="Sevilla">Sevilla</option>
@@ -22,20 +23,29 @@
 </select><br><br>
 <button id="buscar" onclick="f_buscar()">Buscar</button>
 <button id="limpiar" onclick="f_limpiar()" >Limpiar</button><br><br>
-<label>DNI</label>
+</div>
+
+<div id="edni">
+<label>DNI:</label>
 <input type="text" id="Dni">
-<button id="buscardni" onclick="f_buscarDNI()">Buscar DNI</button>
+<button id="buscardni" onclick="f_buscarDNI()">Buscar DNI</button><br><br>
+</div>
+</div>
 
+<div class="tAbla1">
+<div id="tdni"><p>Ciudad</p></div>
+<div id="tciudad"><p>Dni</p></div>
+<div id="tnombre"><p>Nombre</p></div>
+<div id="tedad"><p>Edad</p></div>
+</div>
 
-<pre>           Ciudad                     DNI                     Nombre                     Edad </pre>
-<div  id="tAbla">
-<div id="tdni"><p id="pdni"></p></div>
+<div  class="tAbla2">
+<div id="tdni"><p id="pciudad"></p></div>
 <div id="tciudad"><p id="pdni"></p></div>
-<div id="tnombre"><p id="pdni"></p></div>
-<div id="tedad"><p id="pdni"></p></div>
-<!--<textarea id="textarea" readonly></textarea>
--->
+<div id="tnombre"><p id="pnombre"></p></div>
+<div id="tedad"><p id="pedad"></p></div>
 </div>  
+
 </div>
 
 </body>
