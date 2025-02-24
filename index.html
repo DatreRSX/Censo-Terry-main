@@ -20,15 +20,23 @@
 <option value="Barcelona">Barcelona</option>
 <option value="Cadiz">Cadiz</option>
 </select><br><br>
+<button id="buscar" onclick="f_buscar()">Buscar</button>
+<button id="limpiar" onclick="f_limpiar()" >Limpiar</button><br><br>
 <label>DNI</label>
 <input type="text" id="Dni">
 <button id="buscardni" onclick="f_buscarDNI()">Buscar DNI</button>
 
-<button id="buscar" onclick="f_buscar()">Buscar</button>
-<button id="limpiar" onclick="f_limpiar()" >Limpiar</button><br><br>
-<pre>Ciudad                    DNI                         Nombre                           Edad </pre>
-<textarea id="textarea" readonly></textarea>
+
+<pre>           Ciudad                     DNI                     Nombre                     Edad </pre>
+<div  id="tAbla">
+<div id="tdni"><p id="pdni"></p></div>
+<div id="tciudad"><p id="pdni"></p></div>
+<div id="tnombre"><p id="pdni"></p></div>
+<div id="tedad"><p id="pdni"></p></div>
+<!--<textarea id="textarea" readonly></textarea>
+-->
 </div>  
+</div>
 
 </body>
 </html>

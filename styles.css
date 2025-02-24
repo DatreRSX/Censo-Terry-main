@@ -17,7 +17,7 @@ align-content:center;
 
 #main
 {
-background-color: rgb(109, 136, 209);
+background-color: rgb(109, 194, 209);
 width: 80%;
 padding: 20px;
 border-radius: 10px;
@@ -28,4 +28,46 @@ h1{
 
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
 
+}
+
+#tdni
+{
+
+width: 25%;    
+height: 50px;
+background-color: aqua;
+border:1px black solid;
+}
+#tciudad
+{
+
+width: 25%;    
+height: 50px;
+background-color: aqua;
+border:1px black solid;
+}
+
+#tnombre
+{
+
+width: 25%;    
+height: 50px;
+background-color: aqua;
+border:1px black solid;
+}
+
+#tedad
+{
+
+width: 25%;    
+height: 50px;
+background-color: aqua;
+border:1px black solid;
+}
+
+#tAbla
+{
+border:2px black solid;
+display: flex;
+flex-direction: row;
 }
