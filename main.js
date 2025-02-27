@@ -39,11 +39,12 @@ sumador++;
 }
 
 function f_buscarDNI() {
+    f_limpiar();
     var imprimirCiudad = ""
     var imprimirDNI = ""
     var imprimirNombre = ""
     var imprimirEdad = ""
-    f_limpiar();
+
     var dni = document.getElementById("Dni").value;
     var sumador1 = 0;
     while (tabla[sumador1][1] != dni && sumador1 < tabla.length) {
